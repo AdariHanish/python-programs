@@ -2,11 +2,11 @@ import random
 
 print("Welcome to the Number Guessing Game!")
 
-secret_number = random.randint(1, 100)
+secret_number = random.randint(1,200)
 guesses_taken = 0
 
 while guesses_taken < 6:
-    print("Guess a number between 1 and 100:")
+    print("Guess a number between 1 and 200:")
     guess = int(input())
 
     guesses_taken += 1
